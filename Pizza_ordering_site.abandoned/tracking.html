@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pizza Delivery - Order Tracking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="account.html">My Account</a></li>
+                <li><a href="tracking.html">Order Tracking</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <h1>Track Your Order</h1>
+        <p>Enter your order number to get the latest updates.</p>
+    </section>
+
+    <section class="tracking-form">
+        <form>
+            <div class="form-group">
+                <label for="order-number">Order Number:</label>
+                <input type="text" id="order-number" name="order-number" placeholder="Enter your order number">
+            </div>
+            <button type="submit" class="btn">Track</button>
+        </form>
+    </section>
+
+    <section class="order-status">
+        <h2>Order Status</h2>
+        <div class="status-item">
+            <p><span class="status">In Progress</span> - Your order is being prepared.</p>
+            <p>Estimated Delivery Time: <span class="time">30 minutes</span></p>
+        </div>
+        <div class="status-item">
+            <p><span class="status">Out for Delivery</span> - Your order is on its way.</p>
+            <p>Delivery Driver: <span class="driver">John Smith</span></p>
+        </div>
+        <div class="status-item">
+            <p><span class="status">Delivered</span> - Your order has been delivered.</p>
+            <p>Delivered At: <span class="time">12:45 PM</span></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Pizza Delivery. All rights reserved.</p>
+    </footer>
+</body>
+</html>
